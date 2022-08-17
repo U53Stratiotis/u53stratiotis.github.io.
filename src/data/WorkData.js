@@ -1,9 +1,9 @@
-export const Work = [
+const workDataArray = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Calculator",
+        description:"Simple calculator made in React. With all functionalities",
+        tags:["react","javascript","styledComponents"],
         
         demo:"https://agency-website-eta.vercel.app/",
         github:"https://github.com/codebucks27/Agency-website"
@@ -59,3 +59,5 @@ export const Work = [
     
   
 ] 
+
+export default workDataArray;
